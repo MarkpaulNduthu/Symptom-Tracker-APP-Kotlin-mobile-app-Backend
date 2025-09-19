@@ -4,7 +4,6 @@
 
 # ⚙️ README – Backend (Spring Boot API)
 
-```markdown
 # Symptom Tracker App – Backend
 
 This repository contains the **Spring Boot backend API** for the Symptom Tracker App.  
@@ -40,3 +39,37 @@ It provides secure data storage, user management, and API endpoints consumed by 
 1. Clone the repository:
    ```bash
    git clone https://github.com/MarkpaulNduthu/symptom-tracker-backend.git
+2. Configure environment variables in application.properties or .env:
+   ```properties
+   spring.datasource.url=jdbc:postgresql://localhost:5432/symptomdb
+   spring.datasource.username=yourusername
+   spring.datasource.password=yourpassword
+
+# AI integration (optional)
+   OPENAI_API_KEY=your_api_key
+3. Run the app:
+   ```bash
+   mvn spring-boot:run
+   ```
+## 📡 API Endpoints
+   ```markdown
+   Method	Endpoint	Description
+   POST	/api/v1/auth/register	Register a new user
+   POST	/api/v1/auth/login	Authenticate and get token
+   GET	/api/v1/symptoms	Fetch user symptoms
+   POST	/api/v1/symptoms	Add a new symptom entry
+
+   (More endpoints coming soon)
+   ```
+## 🛤 Roadmap
+   ```markdown
+    JWT-based authentication
+   
+    Symptom analytics dashboard
+   
+    AI/ML-powered predictions
+   
+    Deployment to cloud (Render/AWS)
+   ```
+## 🤝 Contributing
+   Contributions are welcome! Please open an issue or submit a pull request.
