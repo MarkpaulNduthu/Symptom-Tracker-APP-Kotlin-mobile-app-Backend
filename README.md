@@ -36,7 +36,7 @@ It provides secure data storage, user management, and API endpoints consumed by 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MarkpaulNduthu/symptom-tracker-backend.git
+   git clone https://github.com/MarkpaulNduthu/Symptom-Tracker-APP-Kotlin-mobile-app-Backend.git
 2. Configure environment variables in application.properties or .env:
    ```properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/symptomdb
@@ -60,14 +60,14 @@ It provides secure data storage, user management, and API endpoints consumed by 
    (More endpoints coming soon)
    ```
 ## 🛤 Roadmap
-   ```markdown
-    JWT-based authentication
+
+   - JWT-based authentication
    
-    Symptom analytics dashboard
+   - Symptom analytics dashboard
    
-    AI/ML-powered predictions
+   - AI/ML-powered predictions
    
-    Deployment to cloud (Render/AWS)
-   ```
+   - Deployment to cloud (Render/AWS)
+
 ## 🤝 Contributing
    Contributions are welcome! Please open an issue or submit a pull request.
