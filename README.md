@@ -54,7 +54,7 @@ It provides secure data storage, user management, and API endpoints consumed by 
    Method	Endpoint	Description
    POST	/api/v1/auth/register	Register a new user
    POST	/api/v1/auth/login	Authenticate and get token
-   GET	/api/v1/symptoms	Fetch user symptoms
+   GET	 /api/v1/symptoms	    Fetch user symptoms
    POST	/api/v1/symptoms	Add a new symptom entry
 
    (More endpoints coming soon)
