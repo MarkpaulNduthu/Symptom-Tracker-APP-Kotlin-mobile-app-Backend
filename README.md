@@ -2,8 +2,6 @@
 
 ---
 
-# ⚙️ README – Backend (Spring Boot API)
-
 # Symptom Tracker App – Backend
 
 This repository contains the **Spring Boot backend API** for the Symptom Tracker App.  
